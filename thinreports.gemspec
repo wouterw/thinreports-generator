@@ -21,5 +21,5 @@ Gem::Specification.new do |s|
   end
   s.require_paths = ['lib']
 
-  s.add_dependency 'prawn', '~> 2.2.0'
+  s.add_dependency 'prawn', '>= 2.2', '< 3.0.0'
 end
